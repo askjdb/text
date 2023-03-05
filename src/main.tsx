@@ -9,14 +9,12 @@ import ReactDOM from 'react-dom/client'
 //import './....' 是全局引入
 import 'reset-css'
 import '@/assets/style/global.scss'
-import {BrowserRouter} from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import App from './App'
 // import Router from '@/router/index'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <App></App>
-    </BrowserRouter>
-  </React.StrictMode>,
+  <BrowserRouter>
+    <App></App>
+  </BrowserRouter>
 )

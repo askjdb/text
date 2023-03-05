@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function About() {
+export default function Page4_1() {
   return (
     <div>
-      About
+      Page4_1
     </div>
   )
 }
